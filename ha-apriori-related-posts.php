@@ -30,7 +30,7 @@ function ha_apriori_related_posts_get_updater() {
     require_once $puc_file;
 
     $update_checker = \YahnisElsts\PluginUpdateChecker\v5\PucFactory::buildUpdateChecker(
-        'https://github.com/mystryx1337/ha-apriori-related-posts/',
+        'https://github.com/alexhaio/ha-apriori-related-posts/',
         __FILE__,
         'ha-apriori-related-posts'
     );
